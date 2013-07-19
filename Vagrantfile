@@ -14,7 +14,6 @@ Vagrant.configure("2") do |config|
   # config.vm.box_url = "http://domain.com/path/to/above.box"
   config.vm.box_url = "https://opscode-vm-bento.s3.amazonaws.com/vagrant/opscode_ubuntu-12.04_chef-10.18.2.box"
 
-
   # Create a forwarded port mapping which allows access to a specific port
   # within the machine from a port on the host machine. In the example below,
   # accessing "localhost:8080" will access port 80 on the guest machine.
